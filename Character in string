@@ -1,0 +1,4 @@
+string = "programming"
+char = 'g'
+count = string.count(char)
+print(f"'{char}' appears {count} times in '{string}'")
