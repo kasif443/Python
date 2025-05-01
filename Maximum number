@@ -1,0 +1,8 @@
+a, b, c = 10, 25, 15
+if a >= b and a >= c:
+    max_num = a
+elif b >= a and b >= c:
+    max_num = b
+else:
+    max_num = c
+print("Maximum number:", max_num)
