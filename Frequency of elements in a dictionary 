@@ -1,0 +1,7 @@
+values = [1, 2, 2, 3, 3, 3, 4]
+freq = {}
+
+for val in values:
+    freq[val] = freq.get(val, 0) + 1
+
+print("Frequency of elements:", freq)
