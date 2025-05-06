@@ -1,0 +1,3 @@
+tup = (4, 8, 1, 9, 3)
+print("Maximum:", max(tup))
+print("Minimum:", min(tup))
