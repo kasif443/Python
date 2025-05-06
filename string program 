@@ -1,0 +1,11 @@
+s = "hello world"
+
+# Reverse
+print("Reverse:", s[::-1])
+
+# Character count
+char = 'l'
+print(f"Count of '{char}':", s.count(char))
+
+# Replace
+print("Replace 'l' with 'x':", s.replace('l', 'x'))
