@@ -1,0 +1,10 @@
+import numpy as np
+
+a = np.array([[1, 2], [3, 4]])
+b = np.array([[5, 6], [7, 8]])
+
+add_result = np.add(a, b)
+mult_result = np.multiply(a, b)
+
+print("Addition:\n", add_result)
+print("Multiplication:\n", mult_result)
