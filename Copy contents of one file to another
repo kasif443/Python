@@ -1,0 +1,8 @@
+def copy_file(source, destination):
+    with open(source, 'r') as src:
+        data = src.read()
+    with open(destination, 'w') as dest:
+        dest.write(data)
+
+# Example usage
+copy_file("source.txt", "destination.txt")
