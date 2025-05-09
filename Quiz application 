@@ -1,0 +1,15 @@
+questions = [
+    {"question": "What is 2+2?", "options": ["3", "4", "5"], "answer": "4"},
+    {"question": "Capital of France?", "options": ["Paris", "London", "Rome"], "answer": "Paris"}
+]
+
+score = 0
+for q in questions:
+    print(q["question"])
+    for i, opt in enumerate(q["options"], 1):
+        print(f"{i}. {opt}")
+    ans = input("Enter your answer: ")
+    if ans == q["answer"]:
+        score += 1
+
+print(f"Final Score: {score}/{len(questions)}")
