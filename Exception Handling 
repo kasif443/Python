@@ -1,0 +1,23 @@
+# Divide by zero
+try:
+    a = int(input("Enter numerator: "))
+    b = int(input("Enter denominator: "))
+    print("Result:", a / b)
+except ZeroDivisionError:
+    print("Error: Cannot divide by zero")
+
+# Voter’s age
+age = int(input("Enter age: "))
+if age < 0 or age > 120:
+    print("Invalid age")
+elif age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+
+# Student marks
+marks = int(input("Enter student marks (0-100): "))
+if marks < 0 or marks > 100:
+    print("Invalid mark range")
+else:
+    print("Valid marks:", marks)
