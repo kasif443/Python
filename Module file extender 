@@ -1,0 +1,7 @@
+def write_to_file(filename):
+    with open(filename, 'w') as f:
+        f.write(input("Enter text to write: "))
+
+def read_file(filename):
+    with open(filename, 'r') as f:
+        print(f.read())
