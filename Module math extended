@@ -1,0 +1,7 @@
+import math
+
+def square_root(n):
+    return math.sqrt(n)
+
+def gcd(a, b):
+    return math.gcd(a, b)
